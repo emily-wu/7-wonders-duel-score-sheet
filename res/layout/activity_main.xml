@@ -1,0 +1,395 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="3dp"
+    tools:context="Emily.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#802196F3"
+            android:src="@drawable/ic_crop_portrait_black_24dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#804CAF50"
+            android:src="@drawable/ic_crop_portrait_black_24dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFEB3B"
+            android:src="@drawable/ic_crop_portrait_black_24dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80673AB7"
+            android:src="@drawable/ic_crop_portrait_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#809E9E9E"
+            android:src="@drawable/ic_account_balance_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#801B5E20"
+            android:src="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFC107"
+            android:src="@drawable/ic_monetization_on_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80B71C1C"
+            android:src="@drawable/ic_highlight_off_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#B71C1C"
+            android:src="@drawable/ic_local_activity_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1B5E20"
+            android:src="@drawable/ic_local_activity_black_24dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:padding="3dp" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#E65100"
+            android:id="@+id/myName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#802196F3"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myBlues"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#804CAF50"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myGreens" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFEB3B"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myYellows"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80673AB7"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myPurples"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#809E9E9E"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myWonders"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#801B5E20"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/mySciences"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFC107"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myCoins"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80B71C1C"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/myArmies"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Collected 10 Armies"
+            android:background="#B71C1C"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Collected 6 Sciences"
+            android:background="#1B5E20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#E65100"
+            android:id="@+id/myTotal"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="calculate"
+            android:text="calculate"
+            android:ems="10"
+            android:textAlignment="center"
+            android:background="#BBDEFB"
+            android:id="@+id/calculateButton"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:padding="3dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="#2962FF"
+            android:id="@+id/yourName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#802196F3"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourBlues"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#804CAF50"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourGreens" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFEB3B"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourYellows"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80673AB7"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourPurples"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#809E9E9E"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourWonders"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#801B5E20"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourSciences"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80FFC107"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourCoins"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#80B71C1C"
+            android:inputType="number"
+            android:ems="10"
+            android:text="@string/default_value"
+            android:gravity="center"
+            android:id="@+id/yourArmies"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Collected 10 Armies"
+            android:background="#B71C1C"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Collected 6 Sciences"
+            android:background="#1B5E20"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2962FF"
+            android:id="@+id/yourTotal"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:onClick="reset"
+            android:text="new game"
+            android:textAlignment="center"
+            android:ems="10"
+            android:background="#BBDEFB"
+            android:id="@+id/resetButton"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
