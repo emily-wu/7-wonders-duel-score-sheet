@@ -38,19 +38,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    private String toastMessage() {
-        String message = "";
-
-        if (myPoints == yourPoints) {
-            message = "It's a tie! ";
-        }else if (myPoints > yourPoints) {
-            message = getMyName() + " Wins!";
-        }else {
-            message = getYourName() + " Wins!";
-        }
-        return message;
-    }
-
     private String getMyName() {
         TextView myName = (TextView) findViewById(R.id.myName);
         String mName = myName.getText().toString();
@@ -74,66 +61,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public int addMyPoints() {
-        TextView myBlues = (TextView) findViewById(R.id.myBlues);
-        int mBlues = Integer.parseInt(myBlues.getText().toString());
-
-        TextView myGreens = (TextView) findViewById(R.id.myGreens);
-        int mGreens = Integer.parseInt(myGreens.getText().toString());
-
-        TextView myYellows = (TextView) findViewById(R.id.myYellows);
-        int mYellows = Integer.parseInt(myYellows.getText().toString());
-
-        TextView myPurples = (TextView) findViewById(R.id.myPurples);
-        int mPurples = Integer.parseInt(myPurples.getText().toString());
-
-        TextView myWonders = (TextView) findViewById(R.id.myWonders);
-        int mWonders = Integer.parseInt(myWonders.getText().toString());
-
-        TextView mySciences = (TextView) findViewById(R.id.mySciences);
-        int mSciences = Integer.parseInt(mySciences.getText().toString());
-
-        TextView myCoins = (TextView) findViewById(R.id.myCoins);
-        int mCoins = Integer.parseInt(myCoins.getText().toString());
-
-        TextView myArmies = (TextView) findViewById(R.id.myArmies);
-        int mArmies = Integer.parseInt(myArmies.getText().toString());
-
-        myPoints = mBlues + mGreens + mYellows + mPurples + mWonders + mSciences + mCoins + mArmies;
+        myPoints = parseInput(R.id.myBlues) + parseInput(R.id.myGreens) + parseInput(R.id.myYellows) + parseInput(R.id.myPurples) + parseInput(R.id.myWonders) + parseInput(R.id.mySciences) + parseInput(R.id.myCoins) + parseInput(R.id.myArmies);
 
         return myPoints;
-
-
     }
 
     public int addYourPoints() {
-        TextView yourBlues = (TextView) findViewById(R.id.yourBlues);
-        int yBlues = Integer.parseInt(yourBlues.getText().toString());
-
-        TextView yourGreens = (TextView) findViewById(R.id.yourGreens);
-        int yGreens = Integer.parseInt(yourGreens.getText().toString());
-
-        TextView yourYellows = (TextView) findViewById(R.id.yourYellows);
-        int yYellows = Integer.parseInt(yourYellows.getText().toString());
-
-        TextView yourPurples = (TextView) findViewById(R.id.yourPurples);
-        int yPurples = Integer.parseInt(yourPurples.getText().toString());
-
-        TextView yourWonders = (TextView) findViewById(R.id.yourWonders);
-        int yWonders = Integer.parseInt(yourWonders.getText().toString());
-
-        TextView yourSciences = (TextView) findViewById(R.id.yourSciences);
-        int ySciences = Integer.parseInt(yourSciences.getText().toString());
-
-        TextView yourCoins = (TextView) findViewById(R.id.yourCoins);
-        int yCoins = Integer.parseInt(yourCoins.getText().toString());
-
-        TextView yourArmies = (TextView) findViewById(R.id.yourArmies);
-        int yArmies = Integer.parseInt(yourArmies.getText().toString());
-
-        yourPoints = yBlues + yGreens + yYellows + yPurples + yWonders + ySciences + yCoins + yArmies;
+        yourPoints = parseInput(R.id.yourBlues) + parseInput(R.id.yourGreens) + parseInput(R.id.yourYellows) + parseInput(R.id.yourPurples) + parseInput(R.id.yourWonders) + parseInput(R.id.yourSciences) + parseInput(R.id.yourCoins) + parseInput(R.id.yourArmies);
 
         return yourPoints;
+    }
 
+    public int parseInput(Integer integer) {
+        TextView myView = (TextView) findViewById(integer);
+        String myBluesString = myView.getText().toString();
+        if (myBluesString.matches("")){
+            myBluesString = "0";
+        }
+        int myInt = Integer.parseInt(myBluesString);
+        return myInt;
+    }
+
+    private String toastMessage() {
+        String message = "";
+
+        if (myPoints == yourPoints) {
+            message = "It's a tie! ";
+        }else if (myPoints > yourPoints) {
+            message = getMyName() + " Wins!";
+        }else {
+            message = getYourName() + " Wins!";
+        }
+        return message;
     }
 }
 

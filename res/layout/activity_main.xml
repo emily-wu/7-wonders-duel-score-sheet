@@ -240,8 +240,9 @@
             android:onClick="calculate"
             android:text="calculate"
             android:ems="10"
+            android:textColor="@android:color/white"
             android:textAlignment="center"
-            android:background="#BBDEFB"
+            android:background="#d3b28d"
             android:id="@+id/calculateButton"/>
 
 
@@ -386,7 +387,8 @@
             android:text="new game"
             android:textAlignment="center"
             android:ems="10"
-            android:background="#BBDEFB"
+            android:textColor="@android:color/white"
+            android:background="#d3b28d"
             android:id="@+id/resetButton"/>
 
     </LinearLayout>

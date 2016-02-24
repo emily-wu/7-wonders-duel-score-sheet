@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">7 wonders duel score sheet</string>
-    <string name="default_value">0</string>
+    <string name="default_value">""</string>
     <string name="small_font">20sp</string>
     <string name="large_font">40sp</string>
     <string name="medium_font">30sp</string>
