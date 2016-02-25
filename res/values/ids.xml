@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="myName" />
+    <item type="id" name="myBlues" />
+    <item type="id" name="myGreens" />
+    <item type="id" name="myYellows" />
+    <item type="id" name="myPurples" />
+    <item type="id" name="myWonders" />
+    <item type="id" name="mySciences" />
+    <item type="id" name="myCoins" />
+    <item type="id" name="myArmies" />
+    <item type="id" name="myTotal" />
+
+    <item type="id" name="yourName" />
+    <item type="id" name="yourBlues" />
+    <item type="id" name="yourGreens" />
+    <item type="id" name="yourYellows" />
+    <item type="id" name="yourPurples" />
+    <item type="id" name="yourWonders" />
+    <item type="id" name="yourSciences" />
+    <item type="id" name="yourCoins" />
+    <item type="id" name="yourArmies" />
+    <item type="id" name="yourTotal" />
+
+    <item type="id" name="calculateButton" />
+    <item type="id" name="resetButton" />
+</resources>
