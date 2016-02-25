@@ -390,7 +390,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#80fb9999" />
+            android:background="#cc3300" />
 
         <CheckBox
             android:layout_width="0dp"
@@ -398,7 +398,7 @@
             android:layout_weight="2"
             android:ems="10"
             android:text="Collected 10 Armies"
-            android:background="#80fb9999"/>
+            android:background="#cc3300"/>
 
         <CheckBox
             android:layout_width="0dp"
@@ -406,7 +406,7 @@
             android:layout_weight="2"
             android:ems="10"
             android:text="Collected 10 Armies"
-            android:background="#80fb9999"/>
+            android:background="#cc3300"/>
 
     </LinearLayout>
 
@@ -426,7 +426,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#801B5E20"/>
+            android:background="#666633"/>
 
         <CheckBox
             android:layout_width="0dp"
@@ -434,7 +434,7 @@
             android:layout_weight="2"
             android:ems="10"
             android:text="Collected 6 Sciences"
-            android:background="#801B5E20"/>
+            android:background="#666633"/>
 
         <CheckBox
             android:layout_width="0dp"
@@ -442,7 +442,7 @@
             android:layout_weight="2"
             android:ems="10"
             android:text="Collected 6 Sciences"
-            android:background="#801B5E20"/>
+            android:background="#666633"/>
 
     </LinearLayout>
 
